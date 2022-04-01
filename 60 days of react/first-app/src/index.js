@@ -8,9 +8,13 @@ const day = date.getDate();
 const month = date.getMonth();
 const year = date.getFullYear();
 
+
+
 ReactDOM.render(
   <div>
-    <h1>Todo app</h1>
+    {/* <h1 style={{ color: "white", backgroundColor: "purple", textAlign: "center", padding: "15px"}}>Todo app</h1> inline css */}
+
+    <h1 class="headingStyle">Todo App</h1>
     <h3>{title}</h3>
     <p>{ description }</p>
     <h4>{ day +'/'+ month +'/'+ year }</h4>

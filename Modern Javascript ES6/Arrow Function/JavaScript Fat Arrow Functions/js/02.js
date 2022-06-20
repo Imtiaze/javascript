@@ -22,3 +22,12 @@ let number = () => {
 }
 
 console.log(number());
+
+
+// Practice
+
+let myName = () => {
+    return 'imtiaze';
+}
+
+console.log(myName());

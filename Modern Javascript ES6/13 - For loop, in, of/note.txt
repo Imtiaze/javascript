@@ -1,0 +1,7 @@
+
+
+for - normal loop thourgh
+
+for in - generally used for looping ojbect, easily returns the key
+
+for of - used for looping any array of a string
